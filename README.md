@@ -7,8 +7,9 @@
 ### To make this state work you need to run these command with fresh install of xubuntu
 
     sudo apt-get update
-    sudo apt-get install -y git salt-minion
-    git clone https://github.com/jamij/aarrekaivos.git
+    sudo apt-get install -y git ~~salt-minion~~
+    git clone https://github.com/jamij/aarrekaivos.git 
+#### I updated the high.sh, so there is no need to install salt-minion, because it does it for you
 
 ### When you have cloned this, you need to change the key in "run.sh" which can be found at
 

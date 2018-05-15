@@ -1,0 +1,8 @@
+[Unit]
+Description=aarrekaivos
+
+[Service]
+ExecStart=/home/xubuntu/aarrekaivos/srv/salt/cpuminer-multi/run.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,7 +1,6 @@
 install_packages:
   pkg.installed:
     - pkgs:
-      - git
       - htop
       - automake
       - autoconf
